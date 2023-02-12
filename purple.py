@@ -2,7 +2,7 @@ import requests
 import os
 import datetime
 import pytz
-from influxdb import InfluxDBClient
+import db
 
 class PurpleAir:
     APIKEY = ""
@@ -40,14 +40,11 @@ class PurpleAir:
         }
     
     def write(self,measurement: dict) -> bool:
-        client=InfluxDBClient(host='localhost', port=8086)
-        client.switch_database('pyexample')
-        return client.write_points([measurement])
+        db.write_points([measurement])
     
 
 if __name__ == "__main__":
     pa=PurpleAir()
     measurements=pa.get_measurements()
-    print(f"measurements: {measurements}")
     ok=pa.write(measurements)
     print(f"OK was {ok}")

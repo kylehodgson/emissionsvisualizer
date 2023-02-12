@@ -1,14 +1,12 @@
 import json
 from simplemoer.client import WattTime
-from influxdb import InfluxDBClient
+import db
 
 def update_moer():
     write(get_moer())
 
 def write(measurement: dict) -> bool:
-    client=InfluxDBClient(host='localhost', port=8086)
-    client.switch_database('pyexample')
-    return client.write_points([measurement])
+    db.write_points([measurement])
 
 def get_moer():
     watt_time = WattTime()
@@ -26,6 +24,5 @@ def print_moer():
 
 if __name__ == "__main__":
     moer=get_moer()
-    print(f"moer was {moer}")
     ok=write(moer)
     print(f"ok was {ok}")

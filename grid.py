@@ -2,7 +2,7 @@ import json
 import datetime
 import pytz
 import requests
-from influxdb import InfluxDBClient
+import db
 
 class GridWatch:
     URL='https://live.gridwatch.ca/WebServices/GridWatchWebApp.asmx/GetHomeViewData_v2'
@@ -10,9 +10,7 @@ class GridWatch:
     response_plain=""
     
     def write(self,measurement: dict) -> bool:
-        client=InfluxDBClient(host='localhost', port=8086)
-        client.switch_database('pyexample')
-        return client.write_points([measurement])
+        db.write_points([measurement])
     
     def get_measurements(self):
         self.response_plain=requests.get(self.URL)
@@ -65,6 +63,5 @@ class GridWatch:
 if __name__ == "__main__":
    gw=GridWatch()
    measurements=gw.get_measurements()
-   print(f"measurements:{measurements}")
    ok=gw.write(measurements)
    print(f"ok was {ok}")
