@@ -36,7 +36,8 @@ class JuiceNet:
             "amps": charger.amps, 
             "watts": charger.watts, 
             "temperature_c": charger.temperature, 
-            "status": charger.status 
+            "status": charger.status,
+            "charging_bool": True if charger.status.lower()=="Charging".lower() else False
           },
           "time": measurement_time,
           "tags": {
@@ -45,6 +46,7 @@ class JuiceNet:
             "device_type": "evse",
             "device_brand": "enelx", 
             "device_model": "juicebox40 pro", 
+            "status": charger.status
           }
         })
       return measurements
