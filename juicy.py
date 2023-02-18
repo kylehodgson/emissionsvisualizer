@@ -37,7 +37,8 @@ class JuiceNet:
             "watts": charger.watts, 
             "temperature_c": charger.temperature, 
             "status": charger.status,
-            "charging_bool": True if charger.status.lower()=="Charging".lower() else False
+            "charging_bool": True if charger.status.lower()=="Charging".lower() else False,
+            "charging_mult": 1 if charger.status.lower()=="Charging".lower() else 0
           },
           "time": measurement_time,
           "tags": {
