@@ -1,11 +1,28 @@
 import json
-import datetime
-import pytz
+import sys
+from datetime import datetime
+from zoneinfo import ZoneInfo
 import db
+from pathlib import Path
 
-#FILENAME="4959131128_2023-02-0615.29.39.csv"
-#FILENAME="4959131128_2023-02-0720.56.49.csv"
-FILENAME="4959131128_2023-02-1123.45.00.csv"
+def fmt_measurement_date_(isodate,h):
+    d = datetime.fromisoformat(
+        isodate + "T" +  fmt_twodigit_(h) + ":00"
+    ).replace(
+        tzinfo=ZoneInfo('Canada/Eastern')).astimezone(ZoneInfo('UTC'))
+    return d.strftime("%Y-%m-%dT%H:%M")
+
+def fmt_twodigit_(h):
+    return str(h) if h >= 10 else "0"+str(h) 
+
+if len(sys.argv) > 1:
+   FILENAME=sys.argv[1]
+   path=Path(FILENAME)
+   if not path.is_file():
+       raise FileNotFoundError(f"{FILENAME} is not a valid file")
+else:
+    raise FileNotFoundError("Please provide a filename as the argument.")    
+
 headers=[]
 measurements=[]
 with open(FILENAME, 'r') as f:
@@ -17,14 +34,11 @@ with open(FILENAME, 'r') as f:
             isodate=cells[0].replace('"','')
             
             for h in range(0,24):
-                measurement_date=datetime.datetime.fromisoformat(
-                    isodate + "T" + 
-                    (str(h) if h >= 10 else "0"+str(h)) +
-                    ":00")
+                measurement_date=fmt_measurement_date_(isodate,h)
                 measurement={
                     "measurement": "alectra",
                     "fields": {
-                        "consumption_kwh": float(cells[h+1].replace('"','')) # alectra CSV stores 1 AM in column B, numeric 1.
+                        "consumption_wh": float(cells[h+1].replace('"',''))*float(1000) # alectra CSV stores 1 AM in column B, numeric 1.
                     },
                     "time": measurement_date,
                  
@@ -32,4 +46,6 @@ with open(FILENAME, 'r') as f:
                 }
                 measurements.append(measurement)
 
-db.write_points(measurements)
+
+ok=db.write_points(measurements)
+print(f"OK was {ok}")
