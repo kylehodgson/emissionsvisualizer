@@ -31,6 +31,7 @@ class PurpleAir:
             "fields": {
                 "pm25_ug": self.sensor_data['sensor']['stats']['pm2.5'],
                 "temperature": self.sensor_data['sensor']['temperature'],
+                "temperature_c": float( (int(self.sensor_data['sensor']['temperature']) - 32) / 1.8) ,
                 "humidity": self.sensor_data['sensor']['humidity']
             },
             "time": measurement_time,
