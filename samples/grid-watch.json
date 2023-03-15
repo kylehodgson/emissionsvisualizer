@@ -1,0 +1,1086 @@
+{
+    "timeOfReading": "Sat Feb 4, 11 AM - 12 PM",
+    "imports": "719",
+    "exports": "3,628",
+    "netImportExports": "2,909",
+    "powerGenerated": "22,239",
+    "powerGeneratedLow": "no",
+    "powerGeneratedAvg": "no",
+    "powerGeneratedHigh": "yes",
+    "ontarioDemand": "19,330",
+    "ontarioDemandLow": "no",
+    "ontarioDemandAvg": "no",
+    "ontarioDemandHigh": "yes",
+    "totalCo2e": "1,794",
+    "totalCo2eLow": "yes",
+    "totalCo2eAvg": "no",
+    "totalCo2eHigh": "no",
+    "co2eIntensity": "81",
+    "co2eIntensityLow": "no",
+    "co2eIntensityAvg": "yes",
+    "co2eIntensityHigh": "no",
+    "nuclearOutput": "9,098",
+    "nuclearPercentage": "40.9",
+    "hydroOutput": "5,033",
+    "hydroPercentage": "22.6",
+    "gasOutput": "4,665",
+    "gasPercentage": "21.0",
+    "windOutput": "3,262",
+    "windPercentage": "14.7",
+    "solarOutput": "96",
+    "solarPercentage": "0.4",
+    "biofuelOutput": "85",
+    "biofuelPercentage": "0.4",
+    "energyTypeOrder": [
+        "NUCLEAR",
+        "HYDRO",
+        "GAS",
+        "WIND",
+        "SOLAR",
+        "BIOFUEL"
+    ],
+    "powerPlants": {
+        "NUCLEAR": [
+            {
+                "name": "Total",
+                "output": "9,098",
+                "capability": "9,986"
+            },
+            {
+                "name": "BRUCE A-1",
+                "output": "520",
+                "capability": "816"
+            },
+            {
+                "name": "BRUCE A-2",
+                "output": "825",
+                "capability": "828"
+            },
+            {
+                "name": "BRUCE A-3",
+                "output": "792",
+                "capability": "784"
+            },
+            {
+                "name": "BRUCE A-4",
+                "output": "493",
+                "capability": "784"
+            },
+            {
+                "name": "BRUCE B-5",
+                "output": "516",
+                "capability": "817"
+            },
+            {
+                "name": "BRUCE B-6",
+                "output": "0",
+                "capability": "0"
+            },
+            {
+                "name": "BRUCE B-7",
+                "output": "818",
+                "capability": "817"
+            },
+            {
+                "name": "BRUCE B-8",
+                "output": "813",
+                "capability": "817"
+            },
+            {
+                "name": "DARLINGTON-1",
+                "output": "0",
+                "capability": "0"
+            },
+            {
+                "name": "DARLINGTON-2",
+                "output": "871",
+                "capability": "870"
+            },
+            {
+                "name": "DARLINGTON-3",
+                "output": "0",
+                "capability": "0"
+            },
+            {
+                "name": "DARLINGTON-4",
+                "output": "880",
+                "capability": "880"
+            },
+            {
+                "name": "PICKERING A-1",
+                "output": "496",
+                "capability": "500"
+            },
+            {
+                "name": "PICKERING A-4",
+                "output": "516",
+                "capability": "515"
+            },
+            {
+                "name": "PICKERING B-5",
+                "output": "513",
+                "capability": "510"
+            },
+            {
+                "name": "PICKERING B-6",
+                "output": "0",
+                "capability": "0"
+            },
+            {
+                "name": "PICKERING B-7",
+                "output": "525",
+                "capability": "530"
+            },
+            {
+                "name": "PICKERING B-8",
+                "output": "520",
+                "capability": "518"
+            }
+        ],
+        "HYDRO": [
+            {
+                "name": "Total",
+                "output": "5,033",
+                "capability": "7,521"
+            },
+            {
+                "name": "AB KENORA",
+                "output": "16",
+                "capability": "11"
+            },
+            {
+                "name": "AGUASABON",
+                "output": "30",
+                "capability": "49"
+            },
+            {
+                "name": "ALEXANDER",
+                "output": "48",
+                "capability": "65"
+            },
+            {
+                "name": "AP IROQUOIS FALLS",
+                "output": "84",
+                "capability": "92"
+            },
+            {
+                "name": "ARNPRIOR",
+                "output": "38",
+                "capability": "82"
+            },
+            {
+                "name": "AUBREY FALLS",
+                "output": "0",
+                "capability": "146"
+            },
+            {
+                "name": "BARRETT CHUTE",
+                "output": "37",
+                "capability": "109"
+            },
+            {
+                "name": "BECK-I",
+                "output": "345",
+                "capability": "487"
+            },
+            {
+                "name": "BECK-II",
+                "output": "1,284",
+                "capability": "1,630"
+            },
+            {
+                "name": "BECK-PGS",
+                "output": "37",
+                "capability": "116"
+            },
+            {
+                "name": "CAMERONFALLS",
+                "output": "60",
+                "capability": "96"
+            },
+            {
+                "name": "CANYON",
+                "output": "197",
+                "capability": "211"
+            },
+            {
+                "name": "CARIBOUFALLS",
+                "output": "81",
+                "capability": "94"
+            },
+            {
+                "name": "CARMICHAEL",
+                "output": "9",
+                "capability": "19"
+            },
+            {
+                "name": "CHATSFALLS",
+                "output": "87",
+                "capability": "96"
+            },
+            {
+                "name": "CHENAUX",
+                "output": "108",
+                "capability": "158"
+            },
+            {
+                "name": "CLERGUE",
+                "output": "31",
+                "capability": "36"
+            },
+            {
+                "name": "D.A. WATSON",
+                "output": "65",
+                "capability": "80"
+            },
+            {
+                "name": "DECEW FALLS 1",
+                "output": "132",
+                "capability": "124"
+            },
+            {
+                "name": "DECEW FALLS 2",
+                "output": "15",
+                "capability": "24"
+            },
+            {
+                "name": "DESJOACHIMS",
+                "output": "341",
+                "capability": "375"
+            },
+            {
+                "name": "EAR FALLS",
+                "output": "22",
+                "capability": "14"
+            },
+            {
+                "name": "FORT FRANCES",
+                "output": "4",
+                "capability": "10"
+            },
+            {
+                "name": "GARTSHORE FALLS",
+                "output": "75",
+                "capability": "89"
+            },
+            {
+                "name": "HARMON",
+                "output": "0",
+                "capability": "0"
+            },
+            {
+                "name": "HARMON 2",
+                "output": "76",
+                "capability": "78"
+            },
+            {
+                "name": "HARRIS",
+                "output": "9",
+                "capability": "12"
+            },
+            {
+                "name": "HOLDEN",
+                "output": "168",
+                "capability": "199"
+            },
+            {
+                "name": "HOLLINGSWORTH",
+                "output": "21",
+                "capability": "23"
+            },
+            {
+                "name": "KAKABEKA FALLS",
+                "output": "19",
+                "capability": "25"
+            },
+            {
+                "name": "KIPLING",
+                "output": "0",
+                "capability": "152"
+            },
+            {
+                "name": "KIPLING 2",
+                "output": "73",
+                "capability": "79"
+            },
+            {
+                "name": "LITTLE LONG 2",
+                "output": "0",
+                "capability": "75"
+            },
+            {
+                "name": "LITTLELONG",
+                "output": "65",
+                "capability": "144"
+            },
+            {
+                "name": "LONG SAULT RAPIDS",
+                "output": "15",
+                "capability": "20"
+            },
+            {
+                "name": "LOWER NOTCH",
+                "output": "113",
+                "capability": "257"
+            },
+            {
+                "name": "LOWER WHITE RIVER",
+                "output": "6",
+                "capability": "6"
+            },
+            {
+                "name": "MACKAY",
+                "output": "45",
+                "capability": "62"
+            },
+            {
+                "name": "MANITOU FALLS",
+                "output": "54",
+                "capability": "74"
+            },
+            {
+                "name": "MISSION FALLS",
+                "output": "11",
+                "capability": "15"
+            },
+            {
+                "name": "MOUNTAIN CHUTE",
+                "output": "0",
+                "capability": "173"
+            },
+            {
+                "name": "NAGAGAMI",
+                "output": "4",
+                "capability": "9"
+            },
+            {
+                "name": "OTTER RAPIDS",
+                "output": "87",
+                "capability": "130"
+            },
+            {
+                "name": "PETER SUTHERLAND SR",
+                "output": "5",
+                "capability": "5"
+            },
+            {
+                "name": "PINE PORTAGE",
+                "output": "98",
+                "capability": "146"
+            },
+            {
+                "name": "RAYNER",
+                "output": "24",
+                "capability": "42"
+            },
+            {
+                "name": "RED ROCK FALLS",
+                "output": "0",
+                "capability": "0"
+            },
+            {
+                "name": "RH SAUNDERS",
+                "output": "736",
+                "capability": "861"
+            },
+            {
+                "name": "SILVER FALLS",
+                "output": "47",
+                "capability": "51"
+            },
+            {
+                "name": "SMOKY FALLS 2",
+                "output": "82",
+                "capability": "176"
+            },
+            {
+                "name": "STEEPHILL FALLS",
+                "output": "2",
+                "capability": "15"
+            },
+            {
+                "name": "STEWARTVILLE",
+                "output": "69",
+                "capability": "160"
+            },
+            {
+                "name": "UMBATA FALLS",
+                "output": "12",
+                "capability": "12"
+            },
+            {
+                "name": "UPPER WHITE RIVER",
+                "output": "4",
+                "capability": "4"
+            },
+            {
+                "name": "WELLS",
+                "output": "0",
+                "capability": "235"
+            },
+            {
+                "name": "WHITEDOG FALLS",
+                "output": "42",
+                "capability": "68"
+            }
+        ],
+        "GAS": [
+            {
+                "name": "Total",
+                "output": "4,665",
+                "capability": "9,894"
+            },
+            {
+                "name": "(DESTEC) KINGSTON",
+                "output": "0",
+                "capability": "120"
+            },
+            {
+                "name": "(DOWCHEM) SARNIA",
+                "output": "22",
+                "capability": "36"
+            },
+            {
+                "name": "BRIGHTON BEACH",
+                "output": "0",
+                "capability": "565"
+            },
+            {
+                "name": "CARDINAL",
+                "output": "0",
+                "capability": "184"
+            },
+            {
+                "name": "DUPONT",
+                "output": "42",
+                "capability": "52"
+            },
+            {
+                "name": "EAST WINDSOR-1",
+                "output": "5",
+                "capability": "46"
+            },
+            {
+                "name": "EAST WINDSOR-2",
+                "output": "0",
+                "capability": "46"
+            },
+            {
+                "name": "GREENFIELD SOUTH-1",
+                "output": "0",
+                "capability": "192"
+            },
+            {
+                "name": "GREENFIELD SOUTH-2",
+                "output": "0",
+                "capability": "133"
+            },
+            {
+                "name": "GREENFIELD-1",
+                "output": "159",
+                "capability": "180"
+            },
+            {
+                "name": "GREENFIELD-2",
+                "output": "159",
+                "capability": "180"
+            },
+            {
+                "name": "GREENFIELD-3",
+                "output": "159",
+                "capability": "180"
+            },
+            {
+                "name": "GREENFIELD-4",
+                "output": "261",
+                "capability": "485"
+            },
+            {
+                "name": "GTAA-1",
+                "output": "0",
+                "capability": "47"
+            },
+            {
+                "name": "GTAA-2",
+                "output": "0",
+                "capability": "47"
+            },
+            {
+                "name": "GTAA-3",
+                "output": "0",
+                "capability": "0"
+            },
+            {
+                "name": "HALTON HILLS-1",
+                "output": "225",
+                "capability": "211"
+            },
+            {
+                "name": "HALTON HILLS-2",
+                "output": "225",
+                "capability": "211"
+            },
+            {
+                "name": "HALTON HILLS-3",
+                "output": "291",
+                "capability": "300"
+            },
+            {
+                "name": "KAPUSKASING",
+                "output": "0",
+                "capability": "0"
+            },
+            {
+                "name": "KIRKLAND LAKE G1-G5",
+                "output": "0",
+                "capability": "160"
+            },
+            {
+                "name": "LAKE SUPERIOR",
+                "output": "0",
+                "capability": "0"
+            },
+            {
+                "name": "LENNOX-1 (OIL/GAS)",
+                "output": "0",
+                "capability": "525"
+            },
+            {
+                "name": "LENNOX-2 (OIL/GAS)",
+                "output": "0",
+                "capability": "0"
+            },
+            {
+                "name": "LENNOX-3 (OIL/GAS)",
+                "output": "30",
+                "capability": "525"
+            },
+            {
+                "name": "LENNOX-4 (OIL/GAS)",
+                "output": "0",
+                "capability": "525"
+            },
+            {
+                "name": "NAPANEE-G1",
+                "output": "201",
+                "capability": "250"
+            },
+            {
+                "name": "NAPANEE-G2",
+                "output": "201",
+                "capability": "260"
+            },
+            {
+                "name": "NAPANEE-G3",
+                "output": "217",
+                "capability": "458"
+            },
+            {
+                "name": "NIPIGON",
+                "output": "0",
+                "capability": "23"
+            },
+            {
+                "name": "NORTH BAY",
+                "output": "0",
+                "capability": "0"
+            },
+            {
+                "name": "NP COCHRANE",
+                "output": "0",
+                "capability": "0"
+            },
+            {
+                "name": "NP IROQUOIS FALLS",
+                "output": "0",
+                "capability": "125"
+            },
+            {
+                "name": "NP KIRKLAND LAKE",
+                "output": "3",
+                "capability": "33"
+            },
+            {
+                "name": "PORTLANDS-1",
+                "output": "138",
+                "capability": "194"
+            },
+            {
+                "name": "PORTLANDS-2",
+                "output": "154",
+                "capability": "194"
+            },
+            {
+                "name": "PORTLANDS-3",
+                "output": "163",
+                "capability": "225"
+            },
+            {
+                "name": "SITHE GOREWAY-11",
+                "output": "70",
+                "capability": "193"
+            },
+            {
+                "name": "SITHE GOREWAY-12",
+                "output": "174",
+                "capability": "193"
+            },
+            {
+                "name": "SITHE GOREWAY-13",
+                "output": "64",
+                "capability": "193"
+            },
+            {
+                "name": "SITHE GOREWAY-15",
+                "output": "193",
+                "capability": "348"
+            },
+            {
+                "name": "ST. CLAIR SARNIA",
+                "output": "553",
+                "capability": "618"
+            },
+            {
+                "name": "THOROLD COGEN",
+                "output": "273",
+                "capability": "285"
+            },
+            {
+                "name": "TRANSALTA OTTAWA",
+                "output": "0",
+                "capability": "70"
+            },
+            {
+                "name": "TRANSALTA SARNIA",
+                "output": "399",
+                "capability": "485"
+            },
+            {
+                "name": "TRANSALTA WINDSOR",
+                "output": "0",
+                "capability": "76"
+            },
+            {
+                "name": "TUNIS",
+                "output": "0",
+                "capability": "59"
+            },
+            {
+                "name": "WHITBY COGEN",
+                "output": "0",
+                "capability": "55"
+            },
+            {
+                "name": "WINDSOR COGEN",
+                "output": "0",
+                "capability": "143"
+            },
+            {
+                "name": "YORK COGEN 1",
+                "output": "142",
+                "capability": "232"
+            },
+            {
+                "name": "YORK COGEN 2",
+                "output": "142",
+                "capability": "232"
+            }
+        ],
+        "WIND": [
+            {
+                "name": "Total",
+                "output": "3,262",
+                "capability": "4,000"
+            },
+            {
+                "name": "ADELAIDE",
+                "output": "0",
+                "capability": "55"
+            },
+            {
+                "name": "AMARANTH",
+                "output": "140",
+                "capability": "133"
+            },
+            {
+                "name": "AMHERST ISLAND",
+                "output": "0",
+                "capability": "0"
+            },
+            {
+                "name": "ARMOW",
+                "output": "172",
+                "capability": "171"
+            },
+            {
+                "name": "BELLE RIVER",
+                "output": "95",
+                "capability": "99"
+            },
+            {
+                "name": "BLAKE",
+                "output": "54",
+                "capability": "53"
+            },
+            {
+                "name": "BORNISH",
+                "output": "0",
+                "capability": "68"
+            },
+            {
+                "name": "BOW LAKE",
+                "output": "14",
+                "capability": "14"
+            },
+            {
+                "name": "BOW LAKE 2",
+                "output": "28",
+                "capability": "27"
+            },
+            {
+                "name": "CEDAR POINT 2",
+                "output": "0",
+                "capability": "98"
+            },
+            {
+                "name": "COMBER",
+                "output": "155",
+                "capability": "154"
+            },
+            {
+                "name": "CRYSLER",
+                "output": "14",
+                "capability": "13"
+            },
+            {
+                "name": "DILLON RALEIGH WIND",
+                "output": "71",
+                "capability": "70"
+            },
+            {
+                "name": "EAST LAKE",
+                "output": "94",
+                "capability": "94"
+            },
+            {
+                "name": "ERIEAU",
+                "output": "92",
+                "capability": "91"
+            },
+            {
+                "name": "GOSFIELD",
+                "output": "45",
+                "capability": "44"
+            },
+            {
+                "name": "GOSHEN",
+                "output": "93",
+                "capability": "92"
+            },
+            {
+                "name": "GOULAIS",
+                "output": "19",
+                "capability": "19"
+            },
+            {
+                "name": "GRAND RENEWABLE",
+                "output": "135",
+                "capability": "134"
+            },
+            {
+                "name": "GRAND VALLEY 3",
+                "output": "37",
+                "capability": "36"
+            },
+            {
+                "name": "GREENWICH",
+                "output": "8",
+                "capability": "9"
+            },
+            {
+                "name": "HENVEY INLET N",
+                "output": "112",
+                "capability": "112"
+            },
+            {
+                "name": "HENVEY INLET S",
+                "output": "168",
+                "capability": "168"
+            },
+            {
+                "name": "JERICHO",
+                "output": "0",
+                "capability": "137"
+            },
+            {
+                "name": "K2 WIND",
+                "output": "1",
+                "capability": "257"
+            },
+            {
+                "name": "KINGSBRIDGE",
+                "output": "34",
+                "capability": "34"
+            },
+            {
+                "name": "LANDON",
+                "output": "38",
+                "capability": "38"
+            },
+            {
+                "name": "MCLEANS MOUNTAIN",
+                "output": "53",
+                "capability": "51"
+            },
+            {
+                "name": "NORTH KENT",
+                "output": "97",
+                "capability": "96"
+            },
+            {
+                "name": "POINTES AUX ROCHES",
+                "output": "46",
+                "capability": "46"
+            },
+            {
+                "name": "PORT BURWELL",
+                "output": "89",
+                "capability": "88"
+            },
+            {
+                "name": "PORTALMA-1",
+                "output": "98",
+                "capability": "97"
+            },
+            {
+                "name": "PORTALMA-3",
+                "output": "97",
+                "capability": "96"
+            },
+            {
+                "name": "PRINCE WIND FARM",
+                "output": "90",
+                "capability": "82"
+            },
+            {
+                "name": "RAILBED SOUTH KENT",
+                "output": "261",
+                "capability": "261"
+            },
+            {
+                "name": "RIPLEY SOUTH",
+                "output": "0",
+                "capability": "45"
+            },
+            {
+                "name": "ROMNEY",
+                "output": "53",
+                "capability": "49"
+            },
+            {
+                "name": "SANDUSK NANTICOKE",
+                "output": "101",
+                "capability": "100"
+            },
+            {
+                "name": "SHANNON",
+                "output": "71",
+                "capability": "70"
+            },
+            {
+                "name": "SPENCE TALBOT WIND",
+                "output": "96",
+                "capability": "95"
+            },
+            {
+                "name": "SUMMERHAVEN",
+                "output": "115",
+                "capability": "112"
+            },
+            {
+                "name": "UNDERWOOD",
+                "output": "33",
+                "capability": "162"
+            },
+            {
+                "name": "WEST LINCOLN NRWF",
+                "output": "210",
+                "capability": "206"
+            },
+            {
+                "name": "WOLFE ISLAND",
+                "output": "41",
+                "capability": "33"
+            },
+            {
+                "name": "ZURICH GRAND BEND",
+                "output": "92",
+                "capability": "91"
+            }
+        ],
+        "SOLAR": [
+            {
+                "name": "Total",
+                "output": "96",
+                "capability": "83"
+            },
+            {
+                "name": "GRAND RENEWABLE",
+                "output": "26",
+                "capability": "25"
+            },
+            {
+                "name": "KINGSTON SF",
+                "output": "0",
+                "capability": "4"
+            },
+            {
+                "name": "NANTICOKE SOLAR",
+                "output": "12",
+                "capability": "16"
+            },
+            {
+                "name": "NORTHLAND SOLAR",
+                "output": "7",
+                "capability": "7"
+            },
+            {
+                "name": "SOUTHGATE SF",
+                "output": "0",
+                "capability": "1"
+            },
+            {
+                "name": "STONE MILLS SF",
+                "output": "6",
+                "capability": "6"
+            },
+            {
+                "name": "WINDSOR AIRPORT SF",
+                "output": "45",
+                "capability": "24"
+            }
+        ],
+        "BIOFUEL": [
+            {
+                "name": "Total",
+                "output": "85",
+                "capability": "218"
+            },
+            {
+                "name": "ATIKOKAN",
+                "output": "53",
+                "capability": "180"
+            },
+            {
+                "name": "CALSTOCK",
+                "output": "32",
+                "capability": "38"
+            },
+            {
+                "name": "TBAY BOWATER",
+                "output": "0",
+                "capability": "0"
+            }
+        ]
+    },
+    "intertieLineData": {
+        "MANITOBA": {
+            "hour": 12,
+            "dateReported": "2023-02-04T12:00:00",
+            "import": "0",
+            "export": "0",
+            "net": "0"
+        },
+        "MANITOBA SK": {
+            "hour": 12,
+            "dateReported": "2023-02-04T12:00:00",
+            "import": "0",
+            "export": "0",
+            "net": "0"
+        },
+        "MICHIGAN": {
+            "hour": 12,
+            "dateReported": "2023-02-04T12:00:00",
+            "import": "386",
+            "export": "946",
+            "net": "560"
+        },
+        "MINNESOTA": {
+            "hour": 12,
+            "dateReported": "2023-02-04T12:00:00",
+            "import": "0",
+            "export": "0",
+            "net": "0"
+        },
+        "NEW-YORK": {
+            "hour": 12,
+            "dateReported": "2023-02-04T12:00:00",
+            "import": "0",
+            "export": "1,451",
+            "net": "1,451"
+        },
+        "PQ.AT": {
+            "hour": 12,
+            "dateReported": "2023-02-04T12:00:00",
+            "import": "333",
+            "export": "1,080",
+            "net": "747"
+        },
+        "PQ.B5D.B31L": {
+            "hour": 12,
+            "dateReported": "2023-02-04T12:00:00",
+            "import": "0",
+            "export": "0",
+            "net": "0"
+        },
+        "PQ.D4Z": {
+            "hour": 12,
+            "dateReported": "2023-02-04T12:00:00",
+            "import": "0",
+            "export": "0",
+            "net": "0"
+        },
+        "PQ.D5A": {
+            "hour": 12,
+            "dateReported": "2023-02-04T12:00:00",
+            "import": "0",
+            "export": "0",
+            "net": "0"
+        },
+        "PQ.H4Z": {
+            "hour": 12,
+            "dateReported": "2023-02-04T12:00:00",
+            "import": "0",
+            "export": "55",
+            "net": "55"
+        },
+        "PQ.H9A": {
+            "hour": 12,
+            "dateReported": "2023-02-04T12:00:00",
+            "import": "0",
+            "export": "0",
+            "net": "0"
+        },
+        "PQ.P33C": {
+            "hour": 12,
+            "dateReported": "2023-02-04T12:00:00",
+            "import": "0",
+            "export": "0",
+            "net": "0"
+        },
+        "PQ.Q4C": {
+            "hour": 12,
+            "dateReported": "2023-02-04T12:00:00",
+            "import": "0",
+            "export": "96",
+            "net": "96"
+        },
+        "PQ.X2Y": {
+            "hour": 12,
+            "dateReported": "2023-02-04T12:00:00",
+            "import": "0",
+            "export": "0",
+            "net": "0"
+        }
+    }
+}
